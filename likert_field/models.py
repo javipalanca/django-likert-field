@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.db import models
 from django.utils.encoding import force_text
-from django.utils.six import string_types
+from six import string_types
 from django.utils.translation import ugettext_lazy as _
 
 import likert_field.forms as forms
